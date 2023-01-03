@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <div class="add-todo">
+      <p>Todo List</p>
+      <div class="todo-input">
+        <input type="text" placeholder="Add a task">
+        <button class="add-btn">ADD</button>
+      </div>
+      <div class="search-input">
+        <input type="text" placeholder="Find a task">
+        <button class="add-btn">Search</button>
+      </div>
+      <div class="todos-box">
+       <!--<div class="todo">
+          <div class="iscomplete"></div>
+         <span class="todo-info">Clean house</span>
+         <span>1/1/2023</span>
+        </div>
+      -->
+      </div>
+      <div class="db-controls">
+        <button id="clear-all">Clear Todos</button>
+      </div>
+      
+    </div>
+    <div class="individual-task-info">
+        <p>Task info</p>
+        <div class="task-identifier">
+          <span>Task ID : <span class="task-id">1</span>
+
+          </span>
+        </div>
+        <div class="task-identifier">
+          <span>Task Status : <span class="task-iscomplete">Not complete</span>
+
+          </span>
+        </div>
+        <div class="task-details">
+          <span>Details :
+            <span id="task-long-info">Testing...</span>
+        </span>
+        </div>
+        <div class="date-info">
+          <span>Date :
+            <span class="task-start">1/2/2023</span>
+          </span>
+        </div>
+        <div class="date-info">
+          <span>Date Completed :
+            <span class="task-end">1/2/2023</span>
+          </span>
+        </div>
+        <div class="task-det-btn">
+          <button id="complete-task">Complete</button>
+          <button>Delete</button>
+          <button class="back-btn">Back to list</button>
+        </div>
+        
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
